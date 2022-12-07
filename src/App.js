@@ -1,7 +1,9 @@
+import { CountApp } from "./count/CountApp";
+
 function App() {
   return (
     <div className="App">
-      React Hooks App
+      <CountApp />
     </div>
   );
 }
