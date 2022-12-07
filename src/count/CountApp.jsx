@@ -16,6 +16,7 @@ export const CountApp = () => {
 
     return (
         <div className="cart">
+            <h2>Count App</h2>
             <button id="dec" onClick={decrement}>-</button>
             <p>{count}</p>
             <button id="inc" onClick={increment}>+</button>
